@@ -1,3 +1,4 @@
+index.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -57,7 +58,7 @@
                 <div class="column right">
                     <div class="text">I'm Udhay and I'm a <span class="typing-2"></span></div>
                     <p>A passionate learner studying B.Tech in electrical and electronics engineering at VIT Chennai. I have a versatile mentality that allows me to work in any situation to accomplish my goal and I'm constantly curious to learn new things. A capable coder with a passion for web design. I interned at Skill Vertex in the Web Development Domain.</p>
-                    <a href="#">Download CV</a>
+                    <a href="./Abi's resume.pdf" download="Resume">Download CV</a>
                 </div>
             </div>
         </div>
@@ -102,17 +103,20 @@
                 <div class="column left">
                     <div class="text">My creative skills & experiences.</div>
                     <p>Web developer with experience in design creation, machine learning techniques, and software development (Java). A strong believer that anything is possible if you put a bit more attention to details and a little creative magic to it.</p>
-                    <div class="text">Internship</div>
-                    <p>My web development internship was with Skill Vertex, a programme that combines theory and projects. I completed one minor and one major web development project while learning about web development.</p>
-                    <div class="text">Achievements</div>
-                    <ul>
-                        <li>AWS Certified Cloud Practitioner</li>
-                        <li>Completion of Java Training - Spoken Tutorial
-                            Project, IIT Bombay</li>
-                        <li>Completion of SQL Training - Spoken Tutorial
-                            Project, IIT Bombay</li>
+                    <div class="showMore">
+
+                        <div class="text">Internship</div>
+                        <p>My web development internship was with Skill Vertex, a programme that combines theory and projects. I completed one minor and one major web development project while learning about web development.</p>
+                        <div class="text">Achievements</div>
+                        <ul>
+                            <li>AWS Certified Cloud Practitioner</li>
+                            <li>Completion of Java Training - Spoken Tutorial
+                                Project, IIT Bombay</li>
+                                <li>Completion of SQL Training - Spoken Tutorial
+                                    Project, IIT Bombay</li>
+                    </div>
                     </ul>
-                    <a href="#">Read more</a>
+                    <a class="readMoreBtn">Read more</a>
                 </div>
                 <div class="column right">
                     <div class="bars">
@@ -291,20 +295,20 @@
                 </div>
                 <div class="column right">
                     <div class="text">Reach me!</div>
-                    <form action="#">
+                    <form class="inputForm" onsubmit="">
                         <div class="fields">
                             <div class="field name">
                                 <input type="text" placeholder="Name" required>
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="email" class="email" placeholder="Email" required>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Subject" required>
+                            <input type="text" class="subject" placeholder="Subject" required>
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                            <textarea cols="30" rows="10" class="message" placeholder="Message.." required></textarea>
                         </div>
                         <div class="button-area">
                             <button type="submit">Send message</button>
@@ -322,5 +326,6 @@
     </footer>
 
     <script src="script.js"></script>
+
 </body>
 </html>

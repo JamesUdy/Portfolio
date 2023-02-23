@@ -71,3 +71,15 @@ $(document).ready(function(){
         }
     });
 });
+
+const form = document.querySelector(".form");
+
+const sendButton = document.querySelector(".sendButton");
+
+sendButton.addEventListener("click", function(){
+    const fName = document.querySelector("#name").value;
+    const email = document.querySelector("#email").value;
+    const subject = document.querySelector("#subject").value;
+    const message = document.querySelector("#message").value;
+    sendButton.href = `mailto:udayamvad@gmail.com?subject=Regarding ${subject}&cc=${email}&body=Hi!!! I'm ${fName} and this is my Email ID ${email}. I want to talk to you about the ${message}`;
+})

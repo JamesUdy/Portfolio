@@ -316,24 +316,24 @@
                 </div>
                 <div class="column right">
                     <div class="text">Reach me!</div>
-                    <form class="inputForm" onsubmit="">
+                    <form action="https://formspree.io/f/mbjeoqbg" method="POST">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input id="name" type="text" placeholder="Name" required>
                             </div>
                             <div class="field email">
-                                <input type="email" class="email" placeholder="Email" required>
+                                <input id="email" type="email" placeholder="Email" required>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" class="subject" placeholder="Subject" required>
+                            <input id="subject" type="text" placeholder="Subject" required>
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" class="message" placeholder="Message.." required></textarea>
+                            <textarea  id="message" cols="30" rows="10" placeholder="Message.." required></textarea>
                         </div>
                         <div class="button-area">
-                            <button type="submit">Send message</button>
-                            <button type="reset">Reset</button>
+                            <button id="button" type="submit">Send message</button>
+                            <button id="button" type="reset">Reset</button>
                         </div>
                     </form>
                 </div>
